@@ -1,0 +1,65 @@
+.container {
+    background-color: #fff;
+    width: 400px;
+    min-height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title{
+    color: #000;
+}
+
+.form-group{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.todo-input{
+    border: 1px solid #EAE8E8;
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+    width: 90%;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.btn-add{
+width: calc(10%-5px);
+height: 32px;
+width: 27px;
+background-color: #8E4AE7;
+outline: none;
+border: none;
+border-radius: 4px;
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+}
+
+.todo-list{
+    margin-top: 20px;
+
+}
+
+
+.list-item{
+    list-style: none; 
+    background-color: #F3F1F4;
+    padding: 10px;
+    margin: 10px 0; /*Fazemos isso para adicionar 10px em cima e em baixo, mas deixar 0 para a esquerda e direita*/
+}
+
+.todo-footer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

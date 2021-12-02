@@ -1,0 +1,11 @@
+.btn-component{
+width: calc(10%-5px);
+height: 32px;
+padding: 8px;
+background-color: red;
+outline: none;
+border: none;
+border-radius: 4px;
+color: #fff;
+font-size: 14px;
+}
